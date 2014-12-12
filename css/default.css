@@ -1,0 +1,303 @@
+/**
+* Resets and defaults
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.main-content{
+	width:70.27818448023426%;
+	margin: 0 auto
+}
+.clear{
+	clear: both;
+}
+
+/**
+* Header
+*/
+.header{
+	width: 100%;
+}
+.header .menu{
+	width: 100%;
+	height: 53px;
+	background: #003A79;
+}
+.header .menu .nav-button{
+	height: 38px;
+	background: #1A4E87;
+	display: block;
+	float: left;
+	margin: 15px 5px 0 0;
+	padding: 10px 17px;
+	box-sizing:border-box;
+	cursor: pointer;
+}
+.header .menu .nav-button:hover{
+	background: #2368B4;
+}
+.header .menu .nav-button span{
+	color: white;
+	font:16px Calibri;
+	font-weight: bold;
+	margin: 0 0 0 2px;
+}
+.header .menu .nav-button .icon.central{
+	margin-right: 5px
+}
+.header .menu .nav-button.on{
+	background-color:white;
+	background-image: linear-gradient(to bottom, #EBEBEB 5%, #FFFFFF 20%)
+}
+.header .menu .nav-button.on:hover{
+	background: white;
+}
+.header .menu .nav-button.on span{
+	color: #1A4E87;
+}
+.header .menu .nav-button.on .icon{
+	background-position: 0 0;
+}
+.header .box{
+	padding: 38px 0;
+}
+
+/**
+* Box login
+*/
+.login{
+	float: right
+}
+.restrict{
+	margin-bottom: 4px
+}
+.restrict img{
+	float: left;
+}
+.restrict h4{
+	float: left;
+	font: 17px Arial;
+	font-weight: bold;
+	color: #999999;
+	margin: 1px 0 0 3px
+}
+
+/**
+* Anim box
+*/
+.box-animado{
+	position: relative;
+}
+.left-anim-box{
+	width: 50%;
+	height: 100%;
+	background:rgba(0,63,132,0.5);
+	position: absolute;
+	z-index: 1;
+	top:0;
+	left:0;
+	border-right: 1px solid white
+}
+.right-anim-box{
+	width: 50%;
+	height: 100%;
+	background:rgba(0,156,166,0.5);
+	position: absolute;
+	z-index: 1;
+	top:0;
+	right:0;
+	border-left: 1px solid white
+}
+.anuncie{
+	width: 482px;
+	height: 441px;
+	background: url(../img/anuncie.png);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.btn-emprego{
+	width: 219px;
+	height: 50px;
+	background: #002855;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font: 20px Arial;
+	color: #ffffff;
+	right: 25px;
+	bottom: 21px;
+	cursor: pointer;
+	outline: none;
+}
+.btn-emprego:hover{
+	background: #004591;
+}
+.btn-contratar{
+	width: 219px;
+	height: 50px;
+	background: #FF7400;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font: 20px Arial;
+	color: #ffffff;
+	left: 25px;
+	bottom: 21px;
+	cursor: pointer;
+	outline: none;
+}
+.btn-contratar:hover{
+	background: #FF8B2D;
+}
+.anuncie-vaga{
+	width: 482px;
+	height: 460px;
+	background: url(../img/anuncie_vaga.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/**
+* Footer
+*/
+.footer{
+
+}
+.footer .section1{
+	background: #10345C;
+	padding: 34px;
+}
+.footer .section1 h3{
+	font: 20px Arial;
+	color: #5B89BB;
+	font-weight: bold;
+}
+.footer .section1 h4{
+	font: 15px Arial;
+	color: #9DABBC;
+	font-weight: bold;
+}
+.footer .section2{
+	background: #002651;
+}
+
+/**
+* Inputs and buttons
+*/
+.cr-input{
+	height: 38px;
+	border: 1px solid #CCCCCC;
+	font: 12px Arial;
+	color: #B4B4B4;
+	box-sizing:border-box;
+	padding: 0 5px;
+	outline: none;
+}
+.cr-input:focus{
+	border-color:#999999;
+	color: #666666;
+}
+.cr-input.mail{
+	width: 218px;
+	background: url(../img/icons/mail.png) no-repeat;
+	background-position: 8px 12px;
+	padding-left:30px;
+	float: left;
+}
+.cr-input.pass{
+	width: 151px;
+	background: url(../img/icons/pass.png) no-repeat;
+	background-position: 8px 10px;
+	padding-left:24px;
+	float: left;
+	margin-left: 5px;
+}
+.btn-login{
+	width: 90px;
+	height: 38px;
+	font: 15px Arial;
+	font-weight: bold;
+	color: white;
+	background: #004C9F;
+	border: none;
+	float: left;
+	margin-left: 5px;
+	cursor:pointer;
+	outline: none;
+}
+.btn-login:hover{
+	background:#0064D2;
+}
+.btn-login:active{
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.5)
+}
+.network{
+	margin: 10px 0 0 0;
+}
+.network .btn-fb{
+	width: 36px;
+	height: 36px;
+	background: url(../img/icons/fb.png) no-repeat;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+.network .btn-fb:hover{
+	opacity: 0.8
+}
+.network .btn-twitter{
+	width: 36px;
+	height: 36px;
+	background: url(../img/icons/twitter.png) no-repeat;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.network .btn-twitter:hover{
+	opacity: 0.8
+}
+.network .btn-gplus{
+	width: 36px;
+	height: 36px;
+	background: url(../img/icons/gplus.png) no-repeat;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.network .btn-gplus:hover{
+	opacity: 0.8
+}
+
+/**
+* Icons
+*/
+.icon{
+	width: 17px;
+	height: 17px;
+	float:left;
+}
+.icon.inicio{
+	background: url(../img/icons/inicio.png);
+	background-position: 0 17px;
+}
+.icon.candidatos{
+	background: url(../img/icons/candidatos.png);
+	background-position: 0 17px;	
+}
+.icon.empresas{
+	background: url(../img/icons/empresas.png);
+	background-position: 0 17px;
+}
+.icon.central{
+	width: 28px;
+	height: 19px;
+	background: url(../img/icons/central.png);
+	background-position: 0 0;
+}
