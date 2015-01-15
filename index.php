@@ -21,7 +21,7 @@
 						<i class="icon inicio"></i>
 						<span>INÍCIO</span>
 					</a><!-- .nav-button -->
-					<a class="nav-button">
+					<a href="candidatos.php" class="nav-button">
 						<i class="icon candidatos"></i>
 						<span>CANDIDATOS</span>
 					</a><!-- .nav-button -->
@@ -37,7 +37,7 @@
 			</div><!-- menu -->
 			<div class="box">
 				<div class="main-content">
-					<a href="#"><img src="img/logo.png" /></a>
+					<a href="#" class='a-logo'><img src="img/logo.png" /></a>
 
 					<div class="login">
 						<div class="restrict">
@@ -48,6 +48,7 @@
 						<form method="post">
 							<input type="text" name="email" id="email" class="cr-input mail" placeholder="E-mail" />
 							<input type="password" name="senha" id="senha" class="cr-input pass" placeholder="Senha" />
+							<input type="password" style="display:none" />
 							<button type="submit" class="btn-login">ENTRAR</button>
 						</form>
 					</div><!-- .login -->
@@ -88,7 +89,7 @@
 				<div class="content-box">
 					<div class='section'>
 						<h2>Quero emprego</h2>
-						<h3>Cadastre seu currículo</h3>
+						<h3>Cadastre seu currículo e um vídeo entrevista</h3>
 						<div class="image solucao">
 							<img src="img/solucao-min.png" />
 						</div><!-- .image-solucao -->
@@ -100,7 +101,7 @@
 						<div class="image chances">
 							<img src="img/chances-min.png" />
 						</div><!-- .image-chances -->
-						<p>Receba vagas de emprego via e-mail, sistema e ainda convites por empresas que se interessaram pelo seu perfil.</p>
+						<p>Receba vagas de emprego via e-mail ou sistema e convites de empresas que se interessaram pelo seu perfil.</p>
 					</div><!-- .section -->
 					<div class='section'>
 						<h2>Sucesso</h2>
@@ -134,21 +135,43 @@
 							<div class="box"></div>
 							<h3>Monitor De Qualidade Iii - Zona Norte</h3>
 							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
 						</div><!-- .item -->
 						<div class="item">
 							<div class="box"></div>
 							<h3>Coordenador De Atendimento</h3>
 							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
 						</div><!-- .item -->
 						<div class="item">
 							<div class="box"></div>
 							<h3>Supervisor De Vendas</h3>
 							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
 						</div><!-- .item -->
 						<div class="item">
 							<div class="box"></div>
 							<h3>Monitor De Qualidade Iii - Zona Norte</h3>
 							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
+						</div><!-- .item -->
+						<div class="item">
+							<div class="box"></div>
+							<h3>Monitor De Qualidade Iii - Zona Norte</h3>
+							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
+						</div><!-- .item -->
+						<div class="item">
+							<div class="box"></div>
+							<h3>Monitor De Qualidade Iii - Zona Norte</h3>
+							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
+						</div><!-- .item -->
+						<div class="item">
+							<div class="box"></div>
+							<h3>Monitor De Qualidade Iii - Zona Norte</h3>
+							<h5>Empresa com nome confidencial</h5>
+							<button class="compartilhar"></button>
 						</div><!-- .item -->
 
 						<div class="bottom">
@@ -178,11 +201,26 @@
 			</div><!-- .main-content -->
 		</div><!-- .abrangencia -->
 
+		<div class="main-content">
+			<div class="quero-contratar">
+				<div class="title">
+					<h1>Quero Contratar</h1>
+					<h3>Atraia os melhores canditados para sua vaga.</h3>
+				</div><!-- .title -->
+				<div class="bottom">
+					<button class="btn-comece-agora green">Comece agora</button>
+					<h2>Cadastre-se. É rápido.</h2>
+				</div><!-- .bottom -->
+				<img class="quero-contratar-1" src="img/quero-contratar-1.png" />
+				<img class="quero-contratar-2" src="img/quero-contratar-2.png" />
+			</div><!-- .quero-contratar -->
+		</div><!-- .main-content -->
+
 		<div class="footer">
 			<div class="section1">
 				<div class="main-content">
 					<h3>Nas redes sociais</h3>
-					<h4>Social as novidades do Contrata Rápido na internet</h4>
+					<h4>Siga as novidades do Contrata Rápido na internet</h4>
 					<div class="network">
 						<a target="_blank" href="#" class="btn-fb"></a>
 						<a target="_blank" href="#" class="btn-twitter"></a>
@@ -193,9 +231,39 @@
 			</div><!-- .section1 -->
 
 			<div class="section2">
-				<div class="contrata-universitarios">
-					
-				</div><!-- .contrata-universitarios -->
+				<div class="main-content">
+					<div class="lists contrata-universitarios">
+						<h3>CONTRATA UNIVERSITÁRIOS</h3>
+						<ul>
+							<li><a href="#">Sobre Contrata Universitários</a></li>
+							<li><a href="#">Indique Contrata Universitários</a></li>
+							<li><a href="#">Central de Atendimento</a></li>
+						</ul>
+					</div><!-- .contrata-universitarios -->
+					<img src="img/delimiter.png" class="delimiter" />
+					<div class="lists empresas-vagas">
+						<h3>EMPRESAS / VAGAS DE EMPREGO</h3>
+						<ul>
+							<li><a href="#">Cadastrar Empresa</a></li>
+							<li><a href="#">Quero contratar</a></li>
+							<li><a href="#">Solicitar contato</a></li>
+						</ul>
+					</div><!-- .empresas-vagas -->
+					<img src="img/delimiter.png" class="delimiter" />
+					<div class="lists profissionais-curriculos">
+						<h3>PROFISSIONAIS / CURRÍCULOS</h3>
+						<ul>
+							<li><a href="#">Quero Emprego</a></li>
+							<li><a href="#">Dúvidas</a></li>
+						</ul>
+					</div><!-- .profissionais-curriculos -->
+					<div class="infos">
+						<a href="#"><img class="footer-logo" src="img/footer-logo.png" /></a>
+						<p>ContrataRapido.com.br &copy; <?=date('Y');?> - Todos os direitos reservados. <a>Termos de uso</a> & <a>política de privacidade</a></p>
+						<img class="powered" src="img/powered.png" />
+					</div><!-- .infos -->
+					<div class="clear"></div>
+				</div><!-- .main-content -->
 			</div><!-- .section -->
 		</div><!-- .footer -->
 

@@ -14,4 +14,22 @@ $(function() {
 		}
 	} );
 
+	initSlide();
+
 });
+
+function initSlide()
+{
+	var $itemSlide = $('.perfil-profissional .item');
+	var arrSlide = [];
+
+	$itemSlide.each(function(i){
+		arrSlide.push(i);
+		$(this).attr('data-id', i);
+		if (arrSlide.length > 4) {
+			$(this).hide();
+		}
+	});
+
+	// console.log(Math.ceil(arrSlide.length / 4));
+}
